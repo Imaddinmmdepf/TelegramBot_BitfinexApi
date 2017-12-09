@@ -58,7 +58,7 @@ reply_markup = {
 
 //Telegram related code
 /*tocker provided by @BotFather*/
-const TOKEN = '452374478:AAF54AAMilkxehj3AJjSuKSxLiWu1JbkYKI'
+const TOKEN = 'YOUR TOKEN IS PROVIDED BY @BOTFATHER, IN TELEGRAM'
 /*Create the new bot*/
 var bot = new TelegramBot(TOKEN,{polling:true})
 	/*A simple method for testing your bot's auth token. Requires no parameters. 
