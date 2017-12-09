@@ -1,0 +1,23 @@
+{
+  "name": "bot_node",
+  "version": "1.0.0",
+  "description": "bot telegram with Bitfinex Api. ",
+  "main": "telegram_bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Imaddinmmdepf/TelegramBot_BitfinexApi.git"
+  },
+  "author": "Imaddin Ahmed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Imaddinmmdepf/TelegramBot_BitfinexApi/issues"
+  },
+  "homepage": "https://github.com/Imaddinmmdepf/TelegramBot_BitfinexApi#readme",
+  "dependencies": {
+    "bitfinex-api-node": "^1.2.1",
+    "node-telegram-bot-api": "^0.29.0"
+  }
+}
