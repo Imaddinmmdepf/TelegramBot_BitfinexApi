@@ -118,3 +118,11 @@ bot.onText(/\/A reveure/,function(msg,match){
 	var chatId = msg.chat.id
 	bot.sendMessage(chatId,"Que te den Catalán")
 })
+bot.onText(/\/Adios/,function(msg,match){
+	var chatId = msg.chat.id
+	bot.sendMessage(chatId,"Dona un par de ETH a Imaddin, somos pobres.")
+})
+bot.onText(/\/help/, function(msg, match) {
+  var fromId = msg.from.id;
+  bot.sendMessage(fromId, "This spectacular bot just have one single command.\n/Hola - Saluda al bot.\n/Hi - No lo hagas hazme caso.\n/A reveure! - El bot es Franquista\n/Adios - Di adios al bot\n/help - Comandos");
+});
